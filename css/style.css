@@ -1,0 +1,80 @@
+
+/*Обнулення (reset)*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+/*Стилізація*/
+[class*="container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+header{
+	margin-bottom: 30px;
+}
+.container-header {
+	
+}
+p{
+	font-size: 55px;
+	font-weight: 900;
+	color: red;
+	text-shadow: 3px 3px 8px grey;
+	text-align: center;
+}
+.text{
+	color: blue;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.container-main {
+}
+img{
+	max-width: 100%;
+}
+.page1{
+	margin-bottom: 20px;
+}
+main{
+	margin-bottom: 15px;
+}
+
